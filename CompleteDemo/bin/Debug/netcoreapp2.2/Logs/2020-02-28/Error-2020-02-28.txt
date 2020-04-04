@@ -1,0 +1,3 @@
+2020-02-28 19:34:42.3939 | Object reference not set to an instance of an object. Object reference not set to an instance of an object. 
+ ExceptionHandlerMiddleware.Invoke => AsyncMethodBuilderCore.Start => <Invoke>d__3.MoveNext 
+

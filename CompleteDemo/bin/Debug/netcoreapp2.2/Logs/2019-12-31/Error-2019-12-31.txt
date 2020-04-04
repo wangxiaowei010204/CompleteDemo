@@ -1,0 +1,12 @@
+2019-12-31 10:28:48.8617 | Ambiguous HTTP method for action - CompleteDemo.Controllers.StudentController.TransactionScope (CompleteDemo). Actions require an explicit HttpMethod binding for Swagger 2.0 Ambiguous HTTP method for action - CompleteDemo.Controllers.StudentController.TransactionScope (CompleteDemo). Actions require an explicit HttpMethod binding for Swagger 2.0 
+ ExceptionHandlerMiddleware.Invoke => AsyncMethodBuilderCore.Start => <Invoke>d__3.MoveNext 
+
+2019-12-31 10:33:49.5829 | Ambiguous HTTP method for action - CompleteDemo.Controllers.StudentController.TransactionScope (CompleteDemo). Actions require an explicit HttpMethod binding for Swagger 2.0 Ambiguous HTTP method for action - CompleteDemo.Controllers.StudentController.TransactionScope (CompleteDemo). Actions require an explicit HttpMethod binding for Swagger 2.0 
+ ExceptionHandlerMiddleware.Invoke => AsyncMethodBuilderCore.Start => <Invoke>d__3.MoveNext 
+
+2019-12-31 10:36:51.6485 | Ambiguous HTTP method for action - CompleteDemo.Controllers.StudentController.TransactionScope (CompleteDemo). Actions require an explicit HttpMethod binding for Swagger 2.0 Ambiguous HTTP method for action - CompleteDemo.Controllers.StudentController.TransactionScope (CompleteDemo). Actions require an explicit HttpMethod binding for Swagger 2.0 
+ ExceptionHandlerMiddleware.Invoke => AsyncMethodBuilderCore.Start => <Invoke>d__3.MoveNext 
+
+2019-12-31 10:37:59.4215 | Ambiguous HTTP method for action - CompleteDemo.Controllers.StudentController.TransactionScope (CompleteDemo). Actions require an explicit HttpMethod binding for Swagger 2.0 Ambiguous HTTP method for action - CompleteDemo.Controllers.StudentController.TransactionScope (CompleteDemo). Actions require an explicit HttpMethod binding for Swagger 2.0 
+ ExceptionHandlerMiddleware.Invoke => AsyncMethodBuilderCore.Start => <Invoke>d__3.MoveNext 
+

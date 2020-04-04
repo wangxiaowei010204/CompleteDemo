@@ -1,0 +1,410 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CompleteDemo</name>
+    </assembly>
+    <members>
+        <member name="M:CompleteDemo.Common.ILogHelper.Trace(System.String)">
+            <summary>
+            跟踪
+            </summary>
+            <param name="msg"></param>
+        </member>
+        <member name="M:CompleteDemo.Common.ILogHelper.Debug(System.String)">
+            <summary>
+            调试
+            </summary>
+            <param name="msg"></param>
+        </member>
+        <member name="M:CompleteDemo.Common.ILogHelper.Warn(System.String)">
+            <summary>
+            警告
+            </summary>
+            <param name="msg"></param>
+        </member>
+        <member name="M:CompleteDemo.Common.ILogHelper.Info(System.String)">
+            <summary>
+            消息日志
+            </summary>
+            <param name="msg"></param>
+        </member>
+        <member name="M:CompleteDemo.Common.ILogHelper.Error(System.String)">
+            <summary>
+            错误日志
+            </summary>
+            <param name="msg">错误信息</param>
+        </member>
+        <member name="M:CompleteDemo.Common.ILogHelper.Fatal(System.String)">
+            <summary>
+            致命错误日志
+            </summary>
+            <param name="msg">错误信息</param>
+        </member>
+        <member name="M:CompleteDemo.Common.Nlogger.#ctor">
+            <summary>
+            无参构造函数
+            </summary>
+        </member>
+        <member name="M:CompleteDemo.Common.Nlogger.Trace(System.String)">
+            <summary>
+            跟踪
+            </summary>
+            <param name="msg"></param>
+        </member>
+        <member name="M:CompleteDemo.Common.Nlogger.Debug(System.String)">
+            <summary>
+            调试
+            </summary>
+            <param name="msg"></param>
+        </member>
+        <member name="M:CompleteDemo.Common.Nlogger.Warn(System.String)">
+            <summary>
+            警告
+            </summary>
+            <param name="msg"></param>
+        </member>
+        <member name="M:CompleteDemo.Common.Nlogger.Info(System.String)">
+            <summary>
+            消息日志
+            </summary>
+            <param name="msg"></param>
+        </member>
+        <member name="M:CompleteDemo.Common.Nlogger.Error(System.String)">
+            <summary>
+            错误日志
+            </summary>
+            <param name="msg">错误信息</param>
+        </member>
+        <member name="M:CompleteDemo.Common.Nlogger.Fatal(System.String)">
+            <summary>
+            致命错误日志
+            </summary>
+            <param name="msg">错误信息</param>
+        </member>
+        <member name="F:CompleteDemo.DataBase.MySQLDataBaseConfig.DefaultMySqlConnectionString">
+            <summary>
+            默认的MySQL的链接字符串
+            </summary>
+        </member>
+        <member name="T:CompleteDemo.Controllers.ChargingController">
+            <summary>
+            web api 入参测试
+            </summary>
+        </member>
+        <member name="M:CompleteDemo.Controllers.ChargingController.GetAllChargingData(System.Int32,System.String)">
+            <summary>
+            get请求测试1
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CompleteDemo.Controllers.ChargingController.GetByModel(System.String)">
+            <summary>
+            get请求测试2
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CompleteDemo.Controllers.ChargingController.SaveData(System.Object)">
+            <summary>
+            post请求测试1
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CompleteDemo.Controllers.ChargingController.SaveData2(CompleteDemo.Model.TB_CHARGING)">
+            <summary>
+            post请求测试2
+            </summary>
+            <param name="oData"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CompleteDemo.Controllers.StudentController.#ctor(CompleteDemo.Services.IStudentServices,Microsoft.Extensions.Caching.Memory.IMemoryCache)">
+            <summary>
+            无参构造函数
+            </summary>
+            <param name="_studentServices"></param>
+        </member>
+        <member name="M:CompleteDemo.Controllers.StudentController.GetStudentList">
+            <summary>
+            获取学生列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CompleteDemo.Controllers.StudentController.GetStudentInfoByID(System.Int32)">
+            <summary>
+            获取学生信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CompleteDemo.Controllers.StudentController.UpdateStudentInfoByID(System.Int32,System.String)">
+            <summary>
+            更新学生信息
+            </summary>
+            <param name="ID"></param>
+            <param name="Name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CompleteDemo.Controllers.StudentController.InsertStudentInfoByID(System.Int32,System.String)">
+            <summary>
+            新增学生信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CompleteDemo.Controllers.StudentController.Transaction">
+            <summary>
+             Transaction事务
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CompleteDemo.Controllers.StudentController.TransactionCommit">
+            <summary>
+             Transaction事务提交
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CompleteDemo.Controllers.StudentController.TransactionScope">
+            <summary>
+             TransactionScope事务
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CompleteDemo.Controllers.StudentController.SetCookies(System.String,System.String,System.Int32)">
+            <summary>
+            设置本地cookie
+            </summary>
+            <param name="key">键</param>
+            <param name="value">值</param>  
+            <param name="minutes">过期时长，单位：分钟</param>      
+        </member>
+        <member name="M:CompleteDemo.Controllers.StudentController.DeleteCookies(System.String)">
+            <summary>
+            删除指定的cookie
+            </summary>
+            <param name="key">键</param>
+        </member>
+        <member name="M:CompleteDemo.Controllers.StudentController.GetCookies(System.String)">
+            <summary>
+            获取cookies
+            </summary>
+            <param name="key">键</param>
+            <returns>返回对应的值</returns>
+        </member>
+        <member name="M:CompleteDemo.Controllers.TeacherController.#ctor(CompleteDemo.Services.TeacherServices)">
+            <summary>
+            无参构造函数
+            </summary>
+            <param name="_teacherServices"></param>
+        </member>
+        <member name="M:CompleteDemo.Controllers.TeacherController.GetTeacherList">
+            <summary>
+            获取教师列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CompleteDemo.ExceptionHandlerMiddleware.Invoke(Microsoft.AspNetCore.Http.HttpContext)">
+            <summary>
+            执行中间件拦截逻辑
+            </summary>
+            <param name="context">Http上下文</param>
+            <returns></returns>
+        </member>
+        <member name="P:CompleteDemo.Model.Student.ID">
+            <summary>
+            Desc:
+            Default:
+            Nullable:False
+            </summary>           
+        </member>
+        <member name="P:CompleteDemo.Model.Student.Name">
+            <summary>
+            Desc:
+            Default:
+            Nullable:True
+            </summary>           
+        </member>
+        <member name="P:CompleteDemo.Model.Student.CreateTime">
+            <summary>
+            Desc:
+            Default:
+            Nullable:True
+            </summary>           
+        </member>
+        <member name="P:CompleteDemo.Model.Student.classID">
+            <summary>
+            Desc:
+            Default:
+            Nullable:True
+            </summary>           
+        </member>
+        <member name="P:CompleteDemo.Model.Student.SchoolId">
+            <summary>
+            Desc:
+            Default:
+            Nullable:True
+            </summary>           
+        </member>
+        <member name="P:CompleteDemo.Model.StudentDto.ID">
+            <summary>
+            Desc:
+            Default:
+            Nullable:False
+            </summary>           
+        </member>
+        <member name="P:CompleteDemo.Model.StudentDto.Name">
+            <summary>
+            Desc:
+            Default:
+            Nullable:True
+            </summary>           
+        </member>
+        <member name="P:CompleteDemo.Model.StudentDto.CreateTime">
+            <summary>
+            Desc:
+            Default:
+            Nullable:True
+            </summary>           
+        </member>
+        <member name="P:CompleteDemo.Model.StudentDto.classID">
+            <summary>
+            Desc:
+            Default:
+            Nullable:True
+            </summary>           
+        </member>
+        <member name="P:CompleteDemo.Model.StudentDto.SchoolId">
+            <summary>
+            Desc:
+            Default:
+            Nullable:True
+            </summary>           
+        </member>
+        <member name="P:CompleteDemo.Model.TB_CHARGING.ID">
+            <summary>
+            主键Id
+            </summary>
+        </member>
+        <member name="P:CompleteDemo.Model.TB_CHARGING.NAME">
+            <summary>
+            充电设备名称
+            </summary>
+        </member>
+        <member name="P:CompleteDemo.Model.TB_CHARGING.DES">
+            <summary>
+            充电设备描述
+            </summary>
+        </member>
+        <member name="P:CompleteDemo.Model.TB_CHARGING.CREATETIME">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:CompleteDemo.Services.IDog.Breed">
+            <summary>
+            品种
+            </summary>
+        </member>
+        <member name="P:CompleteDemo.Services.IDog.Name">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="T:CompleteDemo.Services.Samoyed">
+            <summary>
+            萨摩耶
+            </summary>
+        </member>
+        <member name="P:CompleteDemo.Services.Samoyed.Breed">
+            <summary>
+            品种
+            </summary>
+        </member>
+        <member name="P:CompleteDemo.Services.Samoyed.Name">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="T:CompleteDemo.Services.TibetanMastiff">
+            <summary>
+            藏獒
+            </summary>
+        </member>
+        <member name="P:CompleteDemo.Services.TibetanMastiff.Breed">
+            <summary>
+            品种
+            </summary>
+        </member>
+        <member name="P:CompleteDemo.Services.TibetanMastiff.Name">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="M:CompleteDemo.Services.StudentServices.GetStudentList">
+            <summary>
+            获取学生列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CompleteDemo.Services.StudentServices.GetStudentInfoByID(System.Int32)">
+            <summary>
+            获取学生信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CompleteDemo.Services.StudentServices.UpdateStudentInfoByID(System.Int32,System.String)">
+            <summary>
+            更新学生信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CompleteDemo.Services.StudentServices.InsertStudentInfoByID(System.Int32,System.String)">
+            <summary>
+            新增学生信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CompleteDemo.Services.StudentServices.Transaction">
+            <summary>
+            Transaction事物
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CompleteDemo.Services.StudentServices.TransactionCommit">
+            <summary>
+            事务提交
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CompleteDemo.Services.StudentServices.TransactionScope">
+            <summary>
+            TransactionScope事务
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CompleteDemo.Services.StudentServices.AutoMapperTest">
+            <summary>
+            automapper测试
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CompleteDemo.Services.TeacherServices.GetTeacherList">
+            <summary>
+            获取教师列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CompleteDemo.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            配置依赖注入（DI）
+            </summary>
+            <param name="services"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CompleteDemo.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IHostingEnvironment,Microsoft.Extensions.Logging.ILoggerFactory)">
+            <summary>
+            配置ASP.NET Core的中间件
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+            <param name="loggerFactory"></param>
+        </member>
+    </members>
+</doc>

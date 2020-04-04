@@ -1,0 +1,214 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.2",
+    "signature": "a429c11010acb09bca8811ab8ca47a2f5b375f97"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.2": {
+      "ESDemo/1.0.0": {
+        "dependencies": {
+          "NEST": "7.3.0",
+          "Newtonsoft.Json": "12.0.2"
+        },
+        "runtime": {
+          "ESDemo.dll": {}
+        }
+      },
+      "Elasticsearch.Net/7.3.0": {
+        "dependencies": {
+          "System.Buffers": "4.5.0",
+          "System.Diagnostics.DiagnosticSource": "4.5.1",
+          "System.Reflection.Emit": "4.3.0",
+          "System.Reflection.Emit.Lightweight": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Elasticsearch.Net.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.3.0.0"
+          }
+        }
+      },
+      "NEST/7.3.0": {
+        "dependencies": {
+          "Elasticsearch.Net": "7.3.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Nest.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.3.0.0"
+          }
+        }
+      },
+      "Newtonsoft.Json/12.0.2": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.2.23222"
+          }
+        }
+      },
+      "System.Buffers/4.5.0": {},
+      "System.Diagnostics.DiagnosticSource/4.5.1": {},
+      "System.IO/4.3.0": {
+        "dependencies": {
+          "System.Runtime": "4.3.0",
+          "System.Text.Encoding": "4.3.0",
+          "System.Threading.Tasks": "4.3.0"
+        }
+      },
+      "System.Reflection/4.3.0": {
+        "dependencies": {
+          "System.IO": "4.3.0",
+          "System.Reflection.Primitives": "4.3.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Reflection.Emit/4.3.0": {
+        "dependencies": {
+          "System.IO": "4.3.0",
+          "System.Reflection": "4.3.0",
+          "System.Reflection.Emit.ILGeneration": "4.3.0",
+          "System.Reflection.Primitives": "4.3.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Reflection.Emit.ILGeneration/4.3.0": {
+        "dependencies": {
+          "System.Reflection": "4.3.0",
+          "System.Reflection.Primitives": "4.3.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Reflection.Emit.Lightweight/4.3.0": {
+        "dependencies": {
+          "System.Reflection": "4.3.0",
+          "System.Reflection.Emit.ILGeneration": "4.3.0",
+          "System.Reflection.Primitives": "4.3.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Reflection.Primitives/4.3.0": {
+        "dependencies": {
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Runtime/4.3.0": {},
+      "System.Text.Encoding/4.3.0": {
+        "dependencies": {
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Threading.Tasks/4.3.0": {
+        "dependencies": {
+          "System.Runtime": "4.3.0"
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ESDemo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Elasticsearch.Net/7.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IncI76uB3Yec1FxcrjSlXmojYA6S5cJJtu8DoYY7bwJrgwG3fhNeExm41/xfI0P8jILLoHkzLyfgOvgpmqsR8g==",
+      "path": "elasticsearch.net/7.3.0",
+      "hashPath": "elasticsearch.net.7.3.0.nupkg.sha512"
+    },
+    "NEST/7.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-r1vn1saRnC/pwywg2QyLyNPbKJkFwk/Enz3q2PsbXxGjFZ/MGzfLsmhuW7nnPnvbxl/QsFEMeR2qKWf2FhlIvA==",
+      "path": "nest/7.3.0",
+      "hashPath": "nest.7.3.0.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mtweBXPWhp1CMQATtBT7ZfMZrbZBTKfjGwz6Y75NwGjx/GztDaUnfw8GK9KZ2T4fDIqKJyDjc9Rxlw5+G2FcVA==",
+      "path": "newtonsoft.json/12.0.2",
+      "hashPath": "newtonsoft.json.12.0.2.nupkg.sha512"
+    },
+    "System.Buffers/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pL2ChpaRRWI/p4LXyy4RgeWlYF2sgfj/pnVMvBqwNFr5cXg7CXNnWZWxrOONLg8VGdFB8oB+EG2Qw4MLgTOe+A==",
+      "path": "system.buffers/4.5.0",
+      "hashPath": "system.buffers.4.5.0.nupkg.sha512"
+    },
+    "System.Diagnostics.DiagnosticSource/4.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/tu8MfTToEdI+I0L10NkGXqGuLDIvmkWqjnaSit3o8i5SZz8A0kz9YLxfZltFKbxmsOpYqnyoysPvPlQMZVwxg==",
+      "path": "system.diagnostics.diagnosticsource/4.5.1",
+      "hashPath": "system.diagnostics.diagnosticsource.4.5.1.nupkg.sha512"
+    },
+    "System.IO/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EQnNIXY1DT93tBAUjs4Yk4UkCG9VZxpGGmeeVRC8ViCK5B64m7Qm38odw/ePftm0v32lolfWYrTSBauQha7zhg==",
+      "path": "system.io/4.3.0",
+      "hashPath": "system.io.4.3.0.nupkg.sha512"
+    },
+    "System.Reflection/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uELJzMn4lhptoJ/FXQsT2kndrnSy+mwKoCUz/Iwi09AdCp/EkriLYzKIx63FSvGsQb7u/8RgmBiqpdIzY+x5wg==",
+      "path": "system.reflection/4.3.0",
+      "hashPath": "system.reflection.4.3.0.nupkg.sha512"
+    },
+    "System.Reflection.Emit/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Hdsvij/LftEaLHKTqhmY8UaHIKQfXfNrUEUNZj3j520ZuWsNmD/8xJOkG4zc5u0NvnOPg8UjgrS0YYx5MiI9fw==",
+      "path": "system.reflection.emit/4.3.0",
+      "hashPath": "system.reflection.emit.4.3.0.nupkg.sha512"
+    },
+    "System.Reflection.Emit.ILGeneration/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Dsic1mXojpEroRHx8MRsQfKKqmFqZ03FvRTlySDYc98siF1iFsnSah5sAp39CNqV8X8+ExKIdgrqeN518y0NMw==",
+      "path": "system.reflection.emit.ilgeneration/4.3.0",
+      "hashPath": "system.reflection.emit.ilgeneration.4.3.0.nupkg.sha512"
+    },
+    "System.Reflection.Emit.Lightweight/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+xR+dZrfdLwqPOjRmP0KrssFoJllKjlp9zevirjWLcF2mUzNNB0Q4bi3dTkKemcxUyExQfmpr6SHBWag9DT5Og==",
+      "path": "system.reflection.emit.lightweight/4.3.0",
+      "hashPath": "system.reflection.emit.lightweight.4.3.0.nupkg.sha512"
+    },
+    "System.Reflection.Primitives/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-myKfTz9k7SjVPXEWv6oGuTHKHFigHAECUcCwYXlBk6kguyV1t0+1FOLj1isLl6tEcd3BY7cSfBMDb41GdqM86g==",
+      "path": "system.reflection.primitives/4.3.0",
+      "hashPath": "system.reflection.primitives.4.3.0.nupkg.sha512"
+    },
+    "System.Runtime/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DSP1eWEKZESFrsm9qgtwP7lsspUMkjxQ7Z8LA/kP3tv1snpksQsXaoV38YjyAKCXqkPE/pAV7wTwQM8C/OtjJg==",
+      "path": "system.runtime/4.3.0",
+      "hashPath": "system.runtime.4.3.0.nupkg.sha512"
+    },
+    "System.Text.Encoding/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+4pRXGH8XU7OBe3XQRsHvNREaB+pPissHrnq/83cwab9cDQXYoMOnDkYOaB8r4EApnB+HHhJ74T6M3DipzEgFA==",
+      "path": "system.text.encoding/4.3.0",
+      "hashPath": "system.text.encoding.4.3.0.nupkg.sha512"
+    },
+    "System.Threading.Tasks/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+Fo7FI7MmR4XU7nQMpzSzVs7KeVr7sIpELykP5EXm/2dG9Z/sM1Bz/WgnTTINjFXGbt4wHRGVDx+hLwdVAyZ4w==",
+      "path": "system.threading.tasks/4.3.0",
+      "hashPath": "system.threading.tasks.4.3.0.nupkg.sha512"
+    }
+  }
+}

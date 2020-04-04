@@ -1,0 +1,9 @@
+D:\汪晓伟\demo\CompleteDemo\ESDemo\bin\Debug\netcoreapp2.2\ESDemo.deps.json
+D:\汪晓伟\demo\CompleteDemo\ESDemo\bin\Debug\netcoreapp2.2\ESDemo.dll
+D:\汪晓伟\demo\CompleteDemo\ESDemo\obj\Debug\netcoreapp2.2\ESDemo.csprojAssemblyReference.cache
+D:\汪晓伟\demo\CompleteDemo\ESDemo\obj\Debug\netcoreapp2.2\ESDemo.csproj.CoreCompileInputs.cache
+D:\汪晓伟\demo\CompleteDemo\ESDemo\obj\Debug\netcoreapp2.2\ESDemo.AssemblyInfoInputs.cache
+D:\汪晓伟\demo\CompleteDemo\ESDemo\obj\Debug\netcoreapp2.2\ESDemo.AssemblyInfo.cs
+D:\汪晓伟\demo\CompleteDemo\ESDemo\bin\Debug\netcoreapp2.2\ESDemo.pdb
+D:\汪晓伟\demo\CompleteDemo\ESDemo\obj\Debug\netcoreapp2.2\ESDemo.dll
+D:\汪晓伟\demo\CompleteDemo\ESDemo\obj\Debug\netcoreapp2.2\ESDemo.pdb

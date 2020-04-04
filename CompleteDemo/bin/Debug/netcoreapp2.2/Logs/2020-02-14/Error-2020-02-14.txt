@@ -1,0 +1,9 @@
+2020-02-14 16:48:24.1893 | An exception was thrown while activating CompleteDemo.Services.StudentServices. An exception was thrown while activating CompleteDemo.Services.StudentServices. 
+ ExceptionHandlerMiddleware.Invoke => AsyncMethodBuilderCore.Start => <Invoke>d__3.MoveNext 
+
+2020-02-14 16:49:33.9312 | An exception was thrown while activating CompleteDemo.Services.StudentServices. An exception was thrown while activating CompleteDemo.Services.StudentServices. 
+ ExceptionHandlerMiddleware.Invoke => AsyncMethodBuilderCore.Start => <Invoke>d__3.MoveNext 
+
+2020-02-14 16:49:54.7404 | An exception was thrown while activating CompleteDemo.Services.StudentServices. An exception was thrown while activating CompleteDemo.Services.StudentServices. 
+ ExceptionHandlerMiddleware.Invoke => AsyncMethodBuilderCore.Start => <Invoke>d__3.MoveNext 
+

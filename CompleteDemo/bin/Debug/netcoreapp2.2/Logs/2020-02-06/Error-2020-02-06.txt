@@ -1,0 +1,3 @@
+2020-02-06 16:35:21.4866 | Error getting value from 'Result' on 'System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[CompleteDemo.Model.Student]]'. Error getting value from 'Result' on 'System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[CompleteDemo.Model.Student]]'. 
+ ExceptionHandlerMiddleware.Invoke => AsyncMethodBuilderCore.Start => <Invoke>d__3.MoveNext 
+

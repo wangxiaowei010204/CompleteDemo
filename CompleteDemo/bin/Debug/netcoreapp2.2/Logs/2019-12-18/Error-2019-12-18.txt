@@ -1,0 +1,27 @@
+2019-12-18 20:13:16.1707 | Error getting value from 'Result' on 'System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[CompleteDemo.Model.Student]]'. Error getting value from 'Result' on 'System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[CompleteDemo.Model.Student]]'. 
+ ExceptionHandlerMiddleware.Invoke => AsyncMethodBuilderCore.Start => <Invoke>d__3.MoveNext 
+
+2019-12-18 20:14:10.0700 | Error getting value from 'Result' on 'System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[CompleteDemo.Model.Student]]'. Error getting value from 'Result' on 'System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[CompleteDemo.Model.Student]]'. 
+ ExceptionHandlerMiddleware.Invoke => AsyncMethodBuilderCore.Start => <Invoke>d__3.MoveNext 
+
+2019-12-18 20:15:22.1577 | Error getting value from 'Result' on 'System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[CompleteDemo.Model.Student]]'. Error getting value from 'Result' on 'System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[CompleteDemo.Model.Student]]'. 
+ AsyncStateMachineBox`1.MoveNext => ExecutionContext.RunInternal => <Invoke>d__3.MoveNext 
+
+2019-12-18 20:18:27.5582 | Error getting value from 'Result' on 'System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[CompleteDemo.Model.Student]]'. Error getting value from 'Result' on 'System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[CompleteDemo.Model.Student]]'. 
+ ExceptionHandlerMiddleware.Invoke => AsyncMethodBuilderCore.Start => <Invoke>d__3.MoveNext 
+
+2019-12-18 20:19:09.9090 | Error getting value from 'Result' on 'System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[CompleteDemo.Model.Student]]'. Error getting value from 'Result' on 'System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[CompleteDemo.Model.Student]]'. 
+ ExceptionHandlerMiddleware.Invoke => AsyncMethodBuilderCore.Start => <Invoke>d__3.MoveNext 
+
+2019-12-18 20:20:01.1013 | Error getting value from 'Result' on 'System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[CompleteDemo.Model.Student]]'. Error getting value from 'Result' on 'System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[CompleteDemo.Model.Student]]'. 
+ ExceptionHandlerMiddleware.Invoke => AsyncMethodBuilderCore.Start => <Invoke>d__3.MoveNext 
+
+2019-12-18 20:20:53.0401 | Error getting value from 'Result' on 'System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[CompleteDemo.Model.Student]]'. Error getting value from 'Result' on 'System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[CompleteDemo.Model.Student]]'. 
+ ExceptionHandlerMiddleware.Invoke => AsyncMethodBuilderCore.Start => <Invoke>d__3.MoveNext 
+
+2019-12-18 20:24:26.7868 | Error getting value from 'Result' on 'System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[CompleteDemo.Model.Student]]'. Error getting value from 'Result' on 'System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[CompleteDemo.Model.Student]]'. 
+ ExceptionHandlerMiddleware.Invoke => AsyncMethodBuilderCore.Start => <Invoke>d__3.MoveNext 
+
+2019-12-18 20:30:48.5381 | Error getting value from 'Result' on 'System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[CompleteDemo.Model.Student]]'. Error getting value from 'Result' on 'System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[CompleteDemo.Model.Student]]'. 
+ ExceptionHandlerMiddleware.Invoke => AsyncMethodBuilderCore.Start => <Invoke>d__3.MoveNext 
+
